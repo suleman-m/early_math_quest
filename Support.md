@@ -66,7 +66,7 @@ Try the following steps:
 
 Have a question, bug report, or feature request?
 
-**Email:** [support@earlymathquest.com](mailto:support@earlymathquest.com)
+**Email:** [cs@tajmie.com](mailto:cs@tajmie.com)
 
 We typically respond within 48 hours.
 
