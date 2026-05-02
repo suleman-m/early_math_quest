@@ -69,6 +69,6 @@ If you have questions about this privacy policy, please contact us at:
 
 ---
 
-[Back to Support](support.md)
+[Back to Support](Support.md)
 
 *© 2026 Early Math Quest. All rights reserved.*
