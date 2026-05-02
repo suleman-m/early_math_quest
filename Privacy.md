@@ -65,7 +65,7 @@ We may update this privacy policy from time to time. Changes will be posted on t
 
 If you have questions about this privacy policy, please contact us at:
 
-**Email:** [sulemanmubarik@gmail.com](mailto:sulemanmubarik@gmail.com)
+**Email:** [cs@tajmie.com](mailto:cs@tajmie.com)
 
 ---
 
