@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early Math Quest - Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #3a8fd6 0%, #64b5f6 50%, #e8f5e9 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-bottom: 24px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            font-weight: 800;
+            background: linear-gradient(135deg, #3a8fd6, #7c4dff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .hero p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        .card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 18px;
+            padding: 32px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .card h2 {
+            font-size: 1.4em;
+            margin-bottom: 16px;
+            color: #2a6fc7;
+        }
+        .card h3 {
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: #444;
+        }
+        .card p, .card li {
+            line-height: 1.7;
+            color: #555;
+            font-size: 0.95em;
+        }
+        .card ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+        .card li { margin-bottom: 6px; }
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 16px 0;
+        }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-item strong {
+            display: block;
+            margin-bottom: 6px;
+            color: #333;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-radius: 14px;
+            padding: 24px;
+            text-align: center;
+        }
+        .contact-box a {
+            color: #2a6fc7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-box a:hover { text-decoration: underline; }
+        .badge {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #2a6fc7;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 32px;
+            color: rgba(255,255,255,0.8);
+            font-size: 0.85em;
+        }
+        footer a { color: rgba(255,255,255,0.9); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Early Math Quest</h1>
+            <p>Fun math quizzes for learners of all ages</p>
+            <div style="margin-top: 16px;">
+                <span class="badge">Ages 3-7</span>
+                <span class="badge">Ages 7-12</span>
+                <span class="badge">Teens &amp; Adults</span>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="card">
+            <h2>About the App</h2>
+            <p>Early Math Quest is a colorful, animated math quiz app designed to make learning math fun for everyone. Choose your age group, pick how many questions you want, and test your skills with addition, subtraction, multiplication, and division.</p>
+            <ul>
+                <li><strong>Ages 3-7:</strong> Simple operations with small numbers (1-10)</li>
+                <li><strong>Ages 7-12:</strong> All four operations with numbers up to 100</li>
+                <li><strong>Teens &amp; Adults:</strong> Multi-operation PEMDAS questions testing order of operations</li>
+            </ul>
+        </div>
+
+        <!-- How to Play -->
+        <div class="card">
+            <h2>How to Play</h2>
+            <ol style="padding-left: 20px;">
+                <li style="margin-bottom: 8px; line-height: 1.7; color: #555;">Select your age group on the home screen</li>
+                <li style="margin-bottom: 8px; line-height: 1.7; color: #555;">Use the slider to choose how many questions you want (5 to 500)</li>
+                <li style="margin-bottom: 8px; line-height: 1.7; color: #555;">Tap "Start Quiz" to begin</li>
+                <li style="margin-bottom: 8px; line-height: 1.7; color: #555;">Select the correct answer from four multiple-choice options</li>
+                <li style="margin-bottom: 8px; line-height: 1.7; color: #555;">Score 80% or higher to pass the quiz</li>
+                <li style="margin-bottom: 8px; line-height: 1.7; color: #555;">If you make too many mistakes, you can watch a short video to earn another chance</li>
+                <li style="margin-bottom: 8px; line-height: 1.7; color: #555;">Score 100% to see a fireworks celebration!</li>
+            </ol>
+        </div>
+
+        <!-- FAQ -->
+        <div class="card">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <strong>Q: How many wrong answers am I allowed?</strong>
+                <p>You need to score 80% or higher to pass. That means you can get up to 20% of the questions wrong. For example, in a 10-question quiz you can miss up to 2 questions. If you exceed the limit, you can watch a short video ad to earn one extra chance.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Q: Can I quit a quiz in the middle?</strong>
+                <p>Yes! Tap the X button in the top-left corner of the quiz screen. You'll be asked to confirm before returning to the home screen. Note that your progress will not be saved.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Q: What are PEMDAS questions?</strong>
+                <p>PEMDAS stands for Parentheses, Exponents, Multiplication, Division, Addition, Subtraction — the order of operations in math. In the Teens &amp; Adults mode, you'll see expressions like "3 + 5 &times; 2" where you need to multiply first (5 &times; 2 = 10), then add (3 + 10 = 13).</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Q: Why are there ads?</strong>
+                <p>Early Math Quest is free to download and use. Ads help us keep the app free for everyone. Banner ads appear at the bottom of each screen, and optional rewarded video ads give you extra chances when you make mistakes.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Q: Is this app safe for children?</strong>
+                <p>Yes. Early Math Quest does not collect any personal information. We do not require accounts, logins, or personal data. Ads shown are provided by Google AdMob and comply with applicable children's advertising guidelines.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Q: The app is crashing or not loading. What should I do?</strong>
+                <p>Try the following steps:</p>
+                <ul>
+                    <li>Close and reopen the app</li>
+                    <li>Restart your device</li>
+                    <li>Make sure your iOS is up to date</li>
+                    <li>Delete and reinstall the app from the App Store</li>
+                    <li>If the problem persists, contact us using the email below</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contact / Support -->
+        <div class="card">
+            <h2>Contact &amp; Support</h2>
+            <div class="contact-box">
+                <p style="margin-bottom: 12px;">Have a question, bug report, or feature request?</p>
+                <p><a href="mailto:cs@tajmie.com">cs@tajmie.com</a></p>
+                <p style="margin-top: 12px; font-size: 0.85em; color: #888;">We typically respond within 48 hours.</p>
+            </div>
+        </div>
+
+        <!-- Privacy Policy -->
+        <div class="card" id="privacy">
+            <h2>Privacy Policy</h2>
+            <p style="font-size: 0.85em; color: #888; margin-bottom: 16px;">Last updated: May 2026</p>
+
+            <h3>Information We Collect</h3>
+            <p>Early Math Quest does not directly collect, store, or transmit any personal information. The app does not require account creation, login, or any personal data input.</p>
+
+            <h3>Third-Party Advertising (Google AdMob)</h3>
+            <p>Early Math Quest displays banner advertisements and optional rewarded video advertisements provided by Google AdMob. Google AdMob may automatically collect:</p>
+            <ul>
+                <li>Device identifiers (IDFA, when permitted)</li>
+                <li>IP address</li>
+                <li>General location data (country/region level)</li>
+                <li>App usage data and interaction with ads</li>
+                <li>Device information (model, OS version, screen size)</li>
+            </ul>
+            <p style="margin-top: 8px;">For more information on how Google handles data, please review the <a href="https://policies.google.com/privacy" target="_blank" style="color: #2a6fc7;">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" style="color: #2a6fc7;">How Google uses information from apps</a>.</p>
+
+            <h3>App Tracking Transparency</h3>
+            <p>On iOS 14.5 and later, Early Math Quest respects the App Tracking Transparency (ATT) framework. If you decline tracking permission, Google AdMob will serve non-personalized advertisements only.</p>
+
+            <h3>Children's Privacy</h3>
+            <p>Early Math Quest is designed for users of all ages, including children. We do not knowingly collect personal information from children. Advertisements shown to users who select the younger age groups are served using Google's child-directed settings when applicable.</p>
+
+            <h3>Data Retention</h3>
+            <p>Early Math Quest does not store any user data on external servers. All quiz progress and preferences are stored locally on your device and are not transmitted to us.</p>
+
+            <h3>Changes to This Policy</h3>
+            <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated revision date.</p>
+
+            <h3>Contact</h3>
+            <p>If you have questions about this privacy policy, please contact us at <a href="mailto:cs@tajmie.com" style="color: #2a6fc7;">cs@tajmie.com</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Early Math Quest. All rights reserved.</p>
+        <p style="margin-top: 8px;"><a href="#privacy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
